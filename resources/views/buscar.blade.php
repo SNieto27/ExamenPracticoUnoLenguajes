@@ -47,7 +47,7 @@
                                     <input type="text" class="form-control" name ="correo">
                                     <p>
                                         <a href="#" class="btn btn-success">Buscar</a>
-                                        <a href="#" class="btn btn-info">Regresar</a>
+                                        <a href="{{route('directorio.inicio')}}" class="btn btn-info">Regresar</a>
                                     </p>                                    
                                 </p>
                             </div>

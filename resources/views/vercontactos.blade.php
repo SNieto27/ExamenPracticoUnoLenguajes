@@ -51,8 +51,8 @@
                                     <input type="text" class="form-control" readonly>
 
                                     <p>
-                                        <button class="btn btn-primary">Agregar nuevo contacto</button>
-                                        <a href="#" class="btn btn-info">Regresar</a>
+                                        <button href="{{route('contacto.crear')}}" class="btn btn-primary">Agregar nuevo contacto</button>
+                                        <a href="{{route('directorio.inicio')}}" class="btn btn-info">Regresar</a>
                                     </p>
 
                                     <table class="table">

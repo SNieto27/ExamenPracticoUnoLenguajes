@@ -32,3 +32,5 @@ Route::get('/directorio/contactos/{codigo}', [DirectorioController::class, 'verC
 Route::get('/directorio/eliminar', [DirectorioController::class, 'eliminar'])->name('directorio.eliminar');
 
 Route::post('/directorio/guardar', [DirectorioController::class, 'store'])->name('directorio.store');
+
+Route::get('/directorio/contactos/crear', [ContactoController::class, 'create'])->name('contacto.crear');
